@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../Documents/Clients/Mumbo Apps/Glued/OldDogNewTricks/MyPlayground.playground">
+      location = "self:AdaptiveLayout.xcodeproj">
    </FileRef>
 </Workspace>
