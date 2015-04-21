@@ -22,6 +22,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
+                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                     <rect key="frame" x="0.0" y="124" width="400" height="73"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
@@ -52,9 +53,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.55294120311737061" green="0.80000001192092896" blue="0.28627452254295349" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="rDj-Ys-yMG" firstAttribute="top" secondItem="j9Q-Bq-Vdb" secondAttribute="bottom" constant="50" id="4Fk-3h-oj0"/>
-                            <constraint firstItem="I5L-Ho-GIG" firstAttribute="top" secondItem="rDj-Ys-yMG" secondAttribute="bottom" constant="50" id="81K-mm-4Ev"/>
-                            <constraint firstItem="j9Q-Bq-Vdb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="A83-Nk-xm5"/>
+                            <constraint firstItem="rDj-Ys-yMG" firstAttribute="top" secondItem="j9Q-Bq-Vdb" secondAttribute="bottom" constant="50" id="4Fk-3h-oj0">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="I5L-Ho-GIG" firstAttribute="top" secondItem="rDj-Ys-yMG" secondAttribute="bottom" constant="50" id="81K-mm-4Ev">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="j9Q-Bq-Vdb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="A83-Nk-xm5">
+                                <variation key="widthClass=compact" constant="120"/>
+                            </constraint>
                             <constraint firstItem="j9Q-Bq-Vdb" firstAttribute="centerX" secondItem="rDj-Ys-yMG" secondAttribute="centerX" id="K8M-tt-sSg"/>
                             <constraint firstItem="rDj-Ys-yMG" firstAttribute="centerX" secondItem="I5L-Ho-GIG" secondAttribute="centerX" id="dlo-D5-V54"/>
                             <constraint firstAttribute="centerX" secondItem="j9Q-Bq-Vdb" secondAttribute="centerX" id="lvC-Yv-oEk"/>

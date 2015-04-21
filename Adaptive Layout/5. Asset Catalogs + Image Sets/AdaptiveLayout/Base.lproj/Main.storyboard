@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qeo-qb-Ui9">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Glued!-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdaptiveLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Glued!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9Q-Bq-Vdb">
+                                <rect key="frame" x="93" y="200" width="415" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                    <rect key="frame" x="0.0" y="124" width="400" height="73"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="124" width="400" height="73"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="124" width="800" height="73"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconChild" translatesAutoresizingMaskIntoConstraints="NO" id="rDj-Ys-yMG">
+                                <rect key="frame" x="216" y="310" width="170" height="152"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="165" y="151" width="83" height="74"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5L-Ho-GIG" customClass="MARoundCornerButton" customModule="AdaptiveLayout" customModuleProvider="target">
+                                <rect key="frame" x="201" y="512" width="200" height="60"/>
+                                <color key="backgroundColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="abh-BF-WYh"/>
+                                    <constraint firstAttribute="height" constant="60" id="hXM-GM-lNm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="LET'S GO!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55294120311737061" green="0.80000001192092896" blue="0.28627452254295349" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rDj-Ys-yMG" firstAttribute="top" secondItem="j9Q-Bq-Vdb" secondAttribute="bottom" constant="50" id="4Fk-3h-oj0">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="I5L-Ho-GIG" firstAttribute="top" secondItem="rDj-Ys-yMG" secondAttribute="bottom" constant="50" id="81K-mm-4Ev">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="j9Q-Bq-Vdb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="A83-Nk-xm5">
+                                <variation key="widthClass=compact" constant="120"/>
+                            </constraint>
+                            <constraint firstItem="j9Q-Bq-Vdb" firstAttribute="centerX" secondItem="rDj-Ys-yMG" secondAttribute="centerX" id="K8M-tt-sSg"/>
+                            <constraint firstItem="rDj-Ys-yMG" firstAttribute="centerX" secondItem="I5L-Ho-GIG" secondAttribute="centerX" id="dlo-D5-V54"/>
+                            <constraint firstAttribute="centerX" secondItem="j9Q-Bq-Vdb" secondAttribute="centerX" id="lvC-Yv-oEk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Glued!" id="bGC-xg-97i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1252" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9ZM-y5-jeK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Qeo-qb-Ui9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dr3-9A-SSi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1KI-HL-oDW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLf-hq-KC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IconChild" width="170" height="152"/>
+    </resources>
+</document>
