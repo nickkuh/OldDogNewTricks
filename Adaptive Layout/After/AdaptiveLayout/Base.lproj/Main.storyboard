@@ -31,13 +31,13 @@
                                     <rect key="frame" x="0.0" y="124" width="800" height="73"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconChild" translatesAutoresizingMaskIntoConstraints="NO" id="rDj-Ys-yMG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="IconChild" translatesAutoresizingMaskIntoConstraints="NO" id="rDj-Ys-yMG">
                                 <rect key="frame" x="216" y="310" width="170" height="152"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="165" y="151" width="83" height="74"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5L-Ho-GIG" customClass="MARoundCornerButton" customModule="AdaptiveLayout" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5L-Ho-GIG" customClass="MARoundCornerButton" customModule="AdaptiveLayout" customModuleProvider="target">
                                 <rect key="frame" x="201" y="512" width="200" height="60"/>
                                 <color key="backgroundColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -69,6 +69,7 @@
         <!--Navigation Controller-->
         <scene sceneID="9ZM-y5-jeK">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLf-hq-KC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Qeo-qb-Ui9" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dr3-9A-SSi">
@@ -80,7 +81,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1KI-HL-oDW"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YLf-hq-KC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="440" y="429"/>
         </scene>
