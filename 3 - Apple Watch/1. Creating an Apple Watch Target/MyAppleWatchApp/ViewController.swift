@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  AdaptiveLayout
+//  MyAppleWatchApp
 //
-//  Created by Nick Kuh on 21/04/2015.
+//  Created by Nick Kuh on 22/04/2015.
 //  Copyright (c) 2015 Mumbo Apps Ltd. All rights reserved.
 //
 
@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-     override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

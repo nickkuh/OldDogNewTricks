@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48CD3A651AE64DCE00156061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CD3A641AE64DCE00156061 /* AppDelegate.swift */; };
-		48CD3A671AE64DCE00156061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CD3A661AE64DCE00156061 /* ViewController.swift */; };
-		48CD3A6A1AE64DCE00156061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48CD3A681AE64DCE00156061 /* Main.storyboard */; };
-		48CD3A6C1AE64DCE00156061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CD3A6B1AE64DCE00156061 /* Images.xcassets */; };
-		48CD3A851AE64F1300156061 /* MARoundCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CD3A841AE64F1300156061 /* MARoundCornerButton.swift */; };
-		48CD3A881AE6582B00156061 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48CD3A861AE6582B00156061 /* LaunchScreen.xib */; };
+		488718881AE79D470099AAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488718871AE79D470099AAC3 /* AppDelegate.swift */; };
+		4887188A1AE79D470099AAC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488718891AE79D470099AAC3 /* ViewController.swift */; };
+		4887188D1AE79D470099AAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4887188B1AE79D470099AAC3 /* Main.storyboard */; };
+		4887188F1AE79D470099AAC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4887188E1AE79D470099AAC3 /* Images.xcassets */; };
+		488718921AE79D470099AAC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488718901AE79D470099AAC3 /* LaunchScreen.xib */; };
+		488718A81AE79D640099AAC3 /* MARoundCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488718A71AE79D640099AAC3 /* MARoundCornerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48CD3A5F1AE64DCE00156061 /* AdaptiveLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48CD3A631AE64DCE00156061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48CD3A641AE64DCE00156061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48CD3A661AE64DCE00156061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48CD3A691AE64DCE00156061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48CD3A6B1AE64DCE00156061 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		48CD3A841AE64F1300156061 /* MARoundCornerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MARoundCornerButton.swift; sourceTree = "<group>"; };
-		48CD3A871AE6582B00156061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		488718821AE79D470099AAC3 /* MyAppleWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppleWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488718861AE79D470099AAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488718871AE79D470099AAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		488718891AE79D470099AAC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4887188C1AE79D470099AAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4887188E1AE79D470099AAC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		488718911AE79D470099AAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		488718A71AE79D640099AAC3 /* MARoundCornerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MARoundCornerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48CD3A5C1AE64DCE00156061 /* Frameworks */ = {
+		4887187F1AE79D470099AAC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48CD3A561AE64DCE00156061 = {
+		488718791AE79D470099AAC3 = {
 			isa = PBXGroup;
 			children = (
-				48CD3A611AE64DCE00156061 /* AdaptiveLayout */,
-				48CD3A601AE64DCE00156061 /* Products */,
+				488718841AE79D470099AAC3 /* MyAppleWatchApp */,
+				488718831AE79D470099AAC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		48CD3A601AE64DCE00156061 /* Products */ = {
+		488718831AE79D470099AAC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48CD3A5F1AE64DCE00156061 /* AdaptiveLayout.app */,
+				488718821AE79D470099AAC3 /* MyAppleWatchApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48CD3A611AE64DCE00156061 /* AdaptiveLayout */ = {
+		488718841AE79D470099AAC3 /* MyAppleWatchApp */ = {
 			isa = PBXGroup;
 			children = (
-				48CD3A641AE64DCE00156061 /* AppDelegate.swift */,
-				48CD3A661AE64DCE00156061 /* ViewController.swift */,
-				48CD3A681AE64DCE00156061 /* Main.storyboard */,
-				48CD3A6B1AE64DCE00156061 /* Images.xcassets */,
-				48CD3A841AE64F1300156061 /* MARoundCornerButton.swift */,
-				48CD3A861AE6582B00156061 /* LaunchScreen.xib */,
-				48CD3A621AE64DCE00156061 /* Supporting Files */,
+				488718871AE79D470099AAC3 /* AppDelegate.swift */,
+				488718891AE79D470099AAC3 /* ViewController.swift */,
+				4887188B1AE79D470099AAC3 /* Main.storyboard */,
+				4887188E1AE79D470099AAC3 /* Images.xcassets */,
+				488718A71AE79D640099AAC3 /* MARoundCornerButton.swift */,
+				488718901AE79D470099AAC3 /* LaunchScreen.xib */,
+				488718851AE79D470099AAC3 /* Supporting Files */,
 			);
-			path = AdaptiveLayout;
+			path = MyAppleWatchApp;
 			sourceTree = "<group>";
 		};
-		48CD3A621AE64DCE00156061 /* Supporting Files */ = {
+		488718851AE79D470099AAC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48CD3A631AE64DCE00156061 /* Info.plist */,
+				488718861AE79D470099AAC3 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -78,38 +78,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48CD3A5E1AE64DCE00156061 /* AdaptiveLayout */ = {
+		488718811AE79D470099AAC3 /* MyAppleWatchApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48CD3A7E1AE64DCE00156061 /* Build configuration list for PBXNativeTarget "AdaptiveLayout" */;
+			buildConfigurationList = 488718A11AE79D470099AAC3 /* Build configuration list for PBXNativeTarget "MyAppleWatchApp" */;
 			buildPhases = (
-				48CD3A5B1AE64DCE00156061 /* Sources */,
-				48CD3A5C1AE64DCE00156061 /* Frameworks */,
-				48CD3A5D1AE64DCE00156061 /* Resources */,
+				4887187E1AE79D470099AAC3 /* Sources */,
+				4887187F1AE79D470099AAC3 /* Frameworks */,
+				488718801AE79D470099AAC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AdaptiveLayout;
-			productName = AdaptiveLayout;
-			productReference = 48CD3A5F1AE64DCE00156061 /* AdaptiveLayout.app */;
+			name = MyAppleWatchApp;
+			productName = MyAppleWatchApp;
+			productReference = 488718821AE79D470099AAC3 /* MyAppleWatchApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		48CD3A571AE64DCE00156061 /* Project object */ = {
+		4887187A1AE79D470099AAC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Mumbo Apps Ltd";
 				TargetAttributes = {
-					48CD3A5E1AE64DCE00156061 = {
+					488718811AE79D470099AAC3 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
-			buildConfigurationList = 48CD3A5A1AE64DCE00156061 /* Build configuration list for PBXProject "AdaptiveLayout" */;
+			buildConfigurationList = 4887187D1AE79D470099AAC3 /* Build configuration list for PBXProject "MyAppleWatchApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,55 +117,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 48CD3A561AE64DCE00156061;
-			productRefGroup = 48CD3A601AE64DCE00156061 /* Products */;
+			mainGroup = 488718791AE79D470099AAC3;
+			productRefGroup = 488718831AE79D470099AAC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48CD3A5E1AE64DCE00156061 /* AdaptiveLayout */,
+				488718811AE79D470099AAC3 /* MyAppleWatchApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		48CD3A5D1AE64DCE00156061 /* Resources */ = {
+		488718801AE79D470099AAC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CD3A6A1AE64DCE00156061 /* Main.storyboard in Resources */,
-				48CD3A881AE6582B00156061 /* LaunchScreen.xib in Resources */,
-				48CD3A6C1AE64DCE00156061 /* Images.xcassets in Resources */,
+				4887188D1AE79D470099AAC3 /* Main.storyboard in Resources */,
+				488718921AE79D470099AAC3 /* LaunchScreen.xib in Resources */,
+				4887188F1AE79D470099AAC3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48CD3A5B1AE64DCE00156061 /* Sources */ = {
+		4887187E1AE79D470099AAC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CD3A671AE64DCE00156061 /* ViewController.swift in Sources */,
-				48CD3A851AE64F1300156061 /* MARoundCornerButton.swift in Sources */,
-				48CD3A651AE64DCE00156061 /* AppDelegate.swift in Sources */,
+				4887188A1AE79D470099AAC3 /* ViewController.swift in Sources */,
+				488718A81AE79D640099AAC3 /* MARoundCornerButton.swift in Sources */,
+				488718881AE79D470099AAC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		48CD3A681AE64DCE00156061 /* Main.storyboard */ = {
+		4887188B1AE79D470099AAC3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				48CD3A691AE64DCE00156061 /* Base */,
+				4887188C1AE79D470099AAC3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		48CD3A861AE6582B00156061 /* LaunchScreen.xib */ = {
+		488718901AE79D470099AAC3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				48CD3A871AE6582B00156061 /* Base */,
+				488718911AE79D470099AAC3 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		48CD3A7C1AE64DCE00156061 /* Debug */ = {
+		4887189F1AE79D470099AAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		48CD3A7D1AE64DCE00156061 /* Release */ = {
+		488718A01AE79D470099AAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,21 +256,21 @@
 			};
 			name = Release;
 		};
-		48CD3A7F1AE64DCE00156061 /* Debug */ = {
+		488718A21AE79D470099AAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AdaptiveLayout/Info.plist;
+				INFOPLIST_FILE = MyAppleWatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		48CD3A801AE64DCE00156061 /* Release */ = {
+		488718A31AE79D470099AAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AdaptiveLayout/Info.plist;
+				INFOPLIST_FILE = MyAppleWatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -279,25 +279,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48CD3A5A1AE64DCE00156061 /* Build configuration list for PBXProject "AdaptiveLayout" */ = {
+		4887187D1AE79D470099AAC3 /* Build configuration list for PBXProject "MyAppleWatchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CD3A7C1AE64DCE00156061 /* Debug */,
-				48CD3A7D1AE64DCE00156061 /* Release */,
+				4887189F1AE79D470099AAC3 /* Debug */,
+				488718A01AE79D470099AAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48CD3A7E1AE64DCE00156061 /* Build configuration list for PBXNativeTarget "AdaptiveLayout" */ = {
+		488718A11AE79D470099AAC3 /* Build configuration list for PBXNativeTarget "MyAppleWatchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CD3A7F1AE64DCE00156061 /* Debug */,
-				48CD3A801AE64DCE00156061 /* Release */,
+				488718A21AE79D470099AAC3 /* Debug */,
+				488718A31AE79D470099AAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 48CD3A571AE64DCE00156061 /* Project object */;
+	rootObject = 4887187A1AE79D470099AAC3 /* Project object */;
 }
