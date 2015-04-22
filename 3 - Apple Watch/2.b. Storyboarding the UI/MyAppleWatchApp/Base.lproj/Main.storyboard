@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I0s-kV-ihV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Glued!-->
+        <scene sceneID="5fH-56-Gak">
+            <objects>
+                <viewController id="5tU-qe-An5" customClass="ViewController" customModule="MyAppleWatchApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bj8-BG-1wL"/>
+                        <viewControllerLayoutGuide type="bottom" id="BgB-Kj-BXw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Lc-yx-Z7L">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Glued!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOY-dd-iEV">
+                                <rect key="frame" x="93" y="200" width="415" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                    <rect key="frame" x="0.0" y="124" width="400" height="73"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="124" width="400" height="73"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="124" width="800" height="73"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconChild" translatesAutoresizingMaskIntoConstraints="NO" id="ens-Fp-MaW">
+                                <rect key="frame" x="258" y="310" width="86" height="77"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="165" y="151" width="83" height="74"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9d-ii-dFs" customClass="MARoundCornerButton" customModule="MyAppleWatchApp" customModuleProvider="target">
+                                <rect key="frame" x="201" y="437" width="200" height="60"/>
+                                <color key="backgroundColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="JBS-Ls-vVg"/>
+                                    <constraint firstAttribute="height" constant="60" id="RA5-J2-qGl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="LET'S GO!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55294120309999995" green="0.80000001190000003" blue="0.28627452250000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wOY-dd-iEV" firstAttribute="centerX" secondItem="ens-Fp-MaW" secondAttribute="centerX" id="0BO-SU-mTE"/>
+                            <constraint firstItem="ens-Fp-MaW" firstAttribute="top" secondItem="wOY-dd-iEV" secondAttribute="bottom" constant="50" id="0It-qB-l3y">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="wOY-dd-iEV" secondAttribute="centerX" id="M3G-6u-h12"/>
+                            <constraint firstItem="G9d-ii-dFs" firstAttribute="top" secondItem="ens-Fp-MaW" secondAttribute="bottom" constant="50" id="Qgq-ox-vja">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="wOY-dd-iEV" firstAttribute="top" secondItem="7Lc-yx-Z7L" secondAttribute="top" constant="200" id="nY0-b7-kEd">
+                                <variation key="widthClass=compact" constant="120"/>
+                            </constraint>
+                            <constraint firstItem="ens-Fp-MaW" firstAttribute="centerX" secondItem="G9d-ii-dFs" secondAttribute="centerX" id="rrd-ov-PBV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Glued!" id="TSM-BA-Sbf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzx-3F-cto" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1252" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="J08-gf-g8W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="I0s-kV-ihV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I31-hM-Ux2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5tU-qe-An5" kind="relationship" relationship="rootViewController" id="lq8-vL-xXG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4NT-h9-2Mk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IconChild" width="86" height="77"/>
+    </resources>
+</document>
